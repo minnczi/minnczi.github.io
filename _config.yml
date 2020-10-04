@@ -15,7 +15,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://minnczi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "" # the favicon for your site
+favicon: "/assets/images/logo.png" # the favicon for your site
 theme: jekyll-theme-yat
 
 # Yat date format
