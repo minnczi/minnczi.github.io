@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 깃허브 블로그에서 게시물 작성하기
-Subtitle: Writing a blog post using Github blog
+subtitle: Writing a blog post using Github blog
 categories: [githubblog, korean]
 tags: [jekyll, ruby, github]
 ---
@@ -36,3 +36,4 @@ tags: [jekyll, ruby, github]
 
 이런식으로 작성을 해주면 된다!
 
+### Yaml
