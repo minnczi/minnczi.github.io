@@ -3,7 +3,7 @@ layout: post
 title: Intro to AWS
 subtitle: Basic Concepts and Terminologies for AWS
 categories: [githubblog, korean]
-tags: [jekyll, ruby, github]
+tags: [AWS, cloud]
 ---
 
 ### AWS Identity and Access Management
