@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 깃허브로 나만의 블로그 만들기 (Get Started with the Github Blog)
+title: 깃허브로 나만의 블로그 만들기 1 (Getting Started with the Github Blog 1)
+subtitle: 블로그 시작하기
 categories: [githubblog, korean]
 tags: [jekyll, ruby, github]
 ---

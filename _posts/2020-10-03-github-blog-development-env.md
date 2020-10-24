@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 깃허브 블로그 개발환경 세팅하기 (Setting up Development Environment for Github Blog)
+title: 깃허브로 나만의 블로그 만들기 2 (Getting Started with the Github Blog 2)
+subtitle: 깃허브 블로그 개발환경 세팅하기 (Setting up Development Environment for Github Blog)
 categories: [githubblog, korean]
 tags: [jekyll, ruby, github]
 ---
