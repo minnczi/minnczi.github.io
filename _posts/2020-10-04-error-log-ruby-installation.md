@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Error Log - Ruby Gem FilePermissionError
+subtitle: Error Log
 categories: [errorlog, githubblog, korean]
 tags: [jekyll, ruby, github]
 
