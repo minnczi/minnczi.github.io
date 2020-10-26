@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Intro to AWS
+title: AWS Identity and Access Management
 subtitle: Basic Concepts and Terminologies for AWS
-categories: [githubblog, korean]
+categories: [AWS, cloud]
 tags: [AWS, cloud]
 ---
 
