@@ -1,19 +1,22 @@
 # Minji's Devlog
-[![Github Pages](https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg)](https://jeffreytse.github.io/jekyll-theme-yat)
-[![Gem Version](https://badge.fury.io/rb/jekyll-theme-yat.svg)](http://badge.fury.io/rb/jekyll-theme-yat)
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![Donate (Liberapay)](http://img.shields.io/liberapay/goal/jeffreytse.svg?logo=liberapay)](https://liberapay.com/jeffreytse)
-[![Donate (Patreon)](https://img.shields.io/badge/support-patreon-F96854.svg?style=flat-square)](https://patreon.com/jeffreytse)
-<a href="https://ko-fi.com/jeffreytse">
-  <img height="20" src="https://www.ko-fi.com/img/githubbutton_sm.svg"
-    alt="Donate (Ko-fi)" />
-</a>
+## Link to My Blog
+
+https://minnczi.github.io/
 
 ## Overview
+
 This is my daily blog where I post my daily TIL's.
+
 Including topics such as:
 
--  
+| Topic Category      | Topics                                                       | Tech Stack / Languages                                       |
+| ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Web Development     | - Front end development using HTML / CSS and web frameworks<br />- Back end development managing databases and creating web APIs using Django REST framework<br /> | - HTML5 / CSS<br />- Bootstrap Framework<br />- Django / Django REST Framework<br />- Javascript<br />- Ruby |
+| Cloud Architecture  | - Designing and cloud architecture <br />- Managing web services in cloud environment<br />- Devops in cloud environemnt<br /> | - Docker<br />- Kubernetes<br />- AWS                        |
+| Projects            | - Project 1: Web service development using Django (Website for Jobseekers in the IT Industry)<br />- Project 2:  Web service development in a cloud environment using serverless architecture (Website for managing certificates)<br />- Project 3: Interdisciplinary service development utilizing AI, Big Data, IoT, and Cloud technolog (Smart Fitting Room) |                                                              |
+| Other Random Topics | - Using Github<br />- Random IT Knowledge<br />- Things I want to learnin the future... |                                                              |
+
+
 
 <p align="center">
 
@@ -21,9 +24,7 @@ Including topics such as:
 
 </p>
 
-## Link to My Blog
 
-https://minnczi.github.io/
 
 ## Development
 
