@@ -9,8 +9,11 @@
     alt="Donate (Ko-fi)" />
 </a>
 
-Hey, nice to meet you, you found this Jekyll theme. Here the yet another theme is a modern theme, and it's quiet clear, clean and neat for writers and posts.
+## Overview
+This is my daily blog where I post my daily TIL's.
+Including topics such as:
 
+-  
 
 <p align="center">
 
