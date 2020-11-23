@@ -9,12 +9,12 @@ This is my daily blog where I post my daily TIL's.
 
 Including topics such as:
 
-| Topic Category      | Topics                                                       | Tech Stack / Languages                                       |
-| ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Web Development     | - Front end development using HTML / CSS and web frameworks<br />- Back end development managing databases and creating web APIs using Django REST framework<br /> | - HTML5 / CSS<br />- Bootstrap Framework<br />- Django / Django REST Framework<br />- Javascript<br />- Ruby |
-| Cloud Architecture  | - Designing and cloud architecture <br />- Managing web services in cloud environment<br />- Devops in cloud environemnt<br /> | - Docker<br />- Kubernetes<br />- AWS                        |
-| Projects            | - Project 1: Web service development using Django (Website for Jobseekers in the IT Industry)<br />- Project 2:  Web service development in a cloud environment using serverless architecture (Website for managing certificates)<br />- Project 3: Interdisciplinary service development utilizing AI, Big Data, IoT, and Cloud technolog (Smart Fitting Room) |                                                              |
-| Other Random Topics | - Using Github<br />- Random IT Knowledge<br />- Things I want to learnin the future... |                                                              |
+| Topic Category          | Topics                                                       | Tech Stack / Languages                                       |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Web Development**     | - Front end development using HTML / CSS and web frameworks<br />- Back end development managing databases and creating web APIs using Django REST framework<br /> | - HTML5 / CSS<br />- Bootstrap Framework<br />- Django / Django REST Framework<br />- Javascript<br />- Ruby |
+| **Cloud Architecture**  | - Designing cloud architecture <br />- Managing web services in a cloud environment<br />- Devops in cloud environment<br /> | - Docker<br />- Kubernetes<br />- AWS                        |
+| **Projects**            | - **Project 1**: Web service development using Django (Website for Jobseekers in the IT Industry)<br />- **Project 2**:  Web service development in a cloud environment using serverless architecture (Website for managing certificates)<br />- **Project 3**: Interdisciplinary service development utilizing AI, Big Data, IoT, and Cloud technolog (Smart Fitting Room) |                                                              |
+| **Other Random Topics** | - Using Github<br />- Random IT Knowledge<br />- Things I want to learn in the future... |                                                              |
 
 
 
