@@ -1,4 +1,4 @@
-# jekyll-theme-yat
+# Minji's Devlog
 [![Github Pages](https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg)](https://jeffreytse.github.io/jekyll-theme-yat)
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-yat.svg)](http://badge.fury.io/rb/jekyll-theme-yat)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
@@ -18,57 +18,13 @@ Hey, nice to meet you, you found this Jekyll theme. Here the yet another theme i
 
 </p>
 
-## Features
+## Link to My Blog
 
-- Full layouts `home`, `post`, `tags`, `archive` and `about`.
-- Uses font awesome 5 for icons.
-- Beautiful Syntax Highlight using [hilight.js][hilight-js].
-- RSS support using [Jekyll Feed][jekyll-feed] gem.
-- Optimized for search engines using [Jekyll Seo Tag][jekyll-seo-tag] gem.
-- Sitemap support using [Jekyll Sitemap][jekyll-sitemap] gem.
-- Complex and flexible table support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- MathJAX and LaTeX optional support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Media (Youtube, Spotify, etc.) support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Diagram (PlantUML, Mermaid) support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Google Translation support.
-- New post tag support.
-
-Also, visit the [Live Demo][yat-live-demo] site for the theme.
-
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "jekyll-theme-yat"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: jekyll-theme-yat
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-theme-yat
-
-## Usage
-
-Add or update your available layouts, includes, sass and/or assets.
-
-GitHub Pages runs in `safe` mode and only allows [a set of whitelisted plugins](https://pages.github.com/versions/).
-To use the third-party gem in GitHub Pages without limitation:
-
-* Here is a GitHub Action named [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) for Jekyll site deployment conveniently. 👍
+https://minnczi.github.io/
 
 ## Development
 
-To set up your environment to develop this theme, run `bundle install`.
+To download and run this in your local environment, run `bundle install`.
 
 Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
