@@ -70,17 +70,85 @@ amplify pull
 
 
 
-#### Amplify 백엔드 초기설정
+## AWS Amplify 초기설정 하기
 
-터미널에서 프로젝트 루트 디렉토리로 이동:
+AWS Amplify에 대해 배운것을 바탕으로 진행중인 안드로이드에 적용하는 방법이다.
 
-```javascript
-cd ~/AndroidStudioProject/<project 이름>
+1. amplify 초기 설정을 해준다
+
+```bash
+amplify init
+
+? Enter a name for the environment
+    `dev`
+? Choose your default editor:
+    `Visual Studio Code`
+? Do you want to use an AWS profile?
+    `Yes`
+? Please choose the profile you want to use
+    `default`
+
 ```
 
+지시에 따라서 질문을 대답하면 프로젝트 폴더에 왼쪽과 같은 backend 폴더가 생긴다.
 
+그리고  `~/app/res/raw` 에 amplifyconfiguration.json과 awsconfiguration.json 이렇게 두개 파일이 생긴다
+
+amplifyconfiguration.json 에서 필요한 backend 자원들을 기술할수 있다.
 
 다음 링크의 Amplify 백엔드 초기화부터 시작해서 초기 설정 완료하면 된다!
 
 https://aws.amazon.com/ko/getting-started/hands-on/build-android-app-amplify/module-two/
+
+2. Gradle Scripts의 build.grade(Project) 파일에서 buildscripts와 allprojects 아래에  `mavenCentral()`을 추가한다
+
+3. Gradle Scripts의 build.grade(Module) 파일에서 buildscripts와 allprojects 아래에  `implementation 'com.amplifyframework:core:1.4.0'`을 추가한다
+
+4. `~/app/java/com.example.project` 에 Backend.kt 파일을 만들어서 다음 ㅋh드를 복사한다
+
+   ```kotlin
+   package com.example.project1342
+   
+   import android.content.Context
+   import android.util.Log
+   import com.amplifyframework.AmplifyException
+   import com.amplifyframework.core.Amplify
+   
+   object Backend {
+   
+       private const val TAG = "Backend"
+   
+       fun initialize(applicationContext: Context) : Backend {
+           try {
+               Amplify.configure(applicationContext)
+               Log.i(TAG, "Initialized Amplify")
+           } catch (e: AmplifyException) {
+               Log.e(TAG, "Could not initialize Amplify", e)
+           }
+           return this
+       }
+   }
+   ```
+
+   
+
+5. `~/app/java/com.example.project` 에 Application.kt 파일을 만들어서 다음 코드를 복사한다
+
+```kotlin
+package com.example.project1342
+
+import android.app.Application
+
+class AndroidGettingStartedApplication : Application() {
+
+    override fun onCreate() {
+        super.onCreate()
+
+        // initialize Amplify when application is starting
+        Backend.initialize(applicationContext)
+    }
+}
+```
+
+
 
