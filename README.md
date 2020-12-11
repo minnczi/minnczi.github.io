@@ -1,5 +1,5 @@
 # Minji's Devlog
-## Link to My Blog
+## Link to My Blog 
 
 https://minnczi.github.io/
 
