@@ -1,4 +1,4 @@
-# Minji's Devlog
+# Minji's Devlog 
 ## Link to My Blog  
 
 https://minnczi.github.io/
